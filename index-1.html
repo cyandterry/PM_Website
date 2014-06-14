@@ -14,9 +14,10 @@
     <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,200,700,600,500,800,900' rel='stylesheet' type='text/css'>    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic' rel='stylesheet' type='text/css'>
     <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/style-1.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -65,21 +66,44 @@
     </nav>
     <!-- end:navbar -->
 
-    <!-- begin:header -->
-    <section id="header" style="background: url(img/bg_1.jpg) center center;">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <blockquote>
-                        <p>A marketing-background designer who is comfortable at the intersection of business and design. </p>
-                    </blockquote>
-                </div>
+    <div class="header-slides">   
+        <div class="row carousel">   
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+                 <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+
+  <!-- Wrapper for slides -->
+                <div class="row carousel">    
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="img/header-livablecny.jpg" width="100%" alt="...">
+                        </div>
+
+                        <div class="item">
+                            <img src="img/img02.jpg" width="100%" alt="...">
+                        </div>
+
+                        <div class="item">
+                            <img src="img/img03.jpg" width="100%" alt="...">
+                        </div>
+                    </div>  
+                </div>      
+
+  <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+             </a>
+            <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
             </div>
         </div>
-        <div class="overlay"></div>
-    </section>
-    <!-- end:header -->
-
+    </div>
+  
 <!-- begin:portfolio -->
     <section id="portfolio" class="portfolio-page">
         <div class="container">
@@ -93,21 +117,6 @@
                     </ul>
 
                     <ul class="list-unstyled container-portfolio wrapper-portfolio">
-
-                        <li class="design">
-                            <div class="portfolio-item">
-                                <div class="portfolio-img" style="background: url(img/livablecny-homepic.jpg);"></div>
-                                <div class="portfolio-caption">
-                                    <div class="portfolio-text">
-                                        <h3>Livablecny.com</h3>
-                                        <p class="project-category">UX/UI Design | Web Design | Branding</p>
-                                        <p class="project-role">Head of Design</p>
-                                        <a href="portfolio-single.html" class="btn btn-info">View &raquo;</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-
                         <li class="design">
                             <div class="portfolio-item">
                                 <div class="portfolio-img" style="background: url(img/project-pic.jpg);"></div>
@@ -121,23 +130,6 @@
                                 </div>
                             </div>
                         </li>
-
-                        <li class="design">
-                            <div class="portfolio-item">
-                                <div class="portfolio-img" style="background: url(img/nomad.jpg);"></div>
-                                <div class="portfolio-caption">
-                                    <div class="portfolio-text">
-                                        <h3>Nomad Mobile Magazine</h3>
-                                        <p class="project-category">UI/UX Design</p>
-                                        <p class="project-role">Design Lead</p>
-                                        <a href="portfolio-single.html" class="btn btn-info">View &raquo;</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        
-
-                        
                         <li class="design photo">
                             <div class="portfolio-item">
                                 <div class="portfolio-img" style="background: url(img/vans_5.jpg);"></div>
@@ -179,7 +171,18 @@
                                 </div>
                             </div>
                         </li>
-                        
+                        <li class="shirt bag">
+                            <div class="portfolio-item">
+                                <div class="portfolio-img" style="background: url(img/img04.jpg);"></div>
+                                <div class="portfolio-caption">
+                                    <div class="portfolio-text">
+                                        <h3>Portfolio Title /</h3>
+                                        <p>Short Description About Portfolio Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis lectus metus.</p>
+                                        <a href="portfolio-single.html" class="btn btn-info">View &raquo;</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
                         
                         <li class="shoes">
                             <div class="portfolio-item">
@@ -271,8 +274,6 @@
         </div>
     </section>
     <!-- end:portfolio -->
-
-
     
     <!-- begin:footer -->
     <section id="footer">
