@@ -634,6 +634,13 @@ input[type="color"]:focus,
     margin-bottom: 30px;
 }
 
+.heading-title-fudamni h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    color: #7AB6C6;
+    font-size: 28px;
+}
+
 .heading-title.heading-small h2{
     color: #555;
     font-weight: 700;
@@ -1107,11 +1114,11 @@ input[type="color"]:focus,
 
 .sidebar .widget-sidebar h3{
     margin-bottom: 20px;
-    font-family: 'Noto Serif', serif;
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
     line-height: 24px;
     color: #506A85;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 .sidebar .widget_categories ul > li > a,
@@ -1738,4 +1745,11 @@ input[type="color"]:focus,
     text-align: center;
 }
 
-
+#background-textbox h3 {
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: #506A85;
+    font-weight: 700;
+}
