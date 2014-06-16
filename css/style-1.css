@@ -1707,3 +1707,12 @@ input[type="color"]:focus,
     max-width: 100%;
     vertical-align: middle;
 }
+
+
+.row-projects {
+    width:100%;
+    color: green;
+    height: 265px;
+}
+
+
