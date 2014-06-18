@@ -1753,3 +1753,45 @@ input[type="color"]:focus,
     color: #506A85;
     font-weight: 700;
 }
+
+#section-title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#section-title h2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 5px;
+}
+
+#project-first-row h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+#project-picture img {
+    width: 100%;
+    margin-top: 8px;
+}
+
+#project-image img {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+#digital-strategy h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+#prototype-image {
+    text-align: center;
+}
+
+#image-caption {
+    margin-top: 10px;
+}
