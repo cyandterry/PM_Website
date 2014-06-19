@@ -1,16 +1,4 @@
 $(document).ready(function(){
-
-    /*Fancy Box*/
-    $(".fancybox").fancybox({
-    helpers : {
-        overlay : {
-            css : {
-                'background' : 'rgba(58, 42, 45, 0.95)'
-            }
-        }
-    }
-});
-
     /* Navbar */
     $(window).scroll(function(){
         if( $(window).scrollTop() > 80){
