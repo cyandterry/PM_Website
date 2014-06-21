@@ -537,7 +537,26 @@ input[type="color"]:focus,
    */
 #content{
     width: 100%;
-    padding: 80px 0;
+    padding: 60px 0;
+    font-size: 16px;
+    line-height: 28px;
+    color: #666;
+}
+
+#content-1 {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 80px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #666;
+    background: #fff;
+}
+
+#content-2 {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 80px;
     font-size: 16px;
     line-height: 28px;
     color: #666;
@@ -1653,6 +1672,7 @@ input[type="color"]:focus,
     background-color: #0f101a;
     color: #ccc;
     font-size: 13px;
+    margin-top: 50px;
 }
 
 #copyright .social-icon > li > a{
@@ -1796,3 +1816,11 @@ input[type="color"]:focus,
     margin-top: 10px;
 }
 
+#image-carousel {
+    background: #fff;
+    padding-top: 50px;
+}
+
+#image-after-text{
+    margin-top: 30px
+}
