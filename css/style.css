@@ -1824,3 +1824,15 @@ input[type="color"]:focus,
 #image-after-text{
     margin-top: 30px
 }
+
+#no-title-section {
+    padding-top: 60px; 
+}
+
+#livablecny-first-row {
+    padding-top: 40px;
+}
+
+#livablecny-sidebar {
+    margin-top: -24px;
+}
