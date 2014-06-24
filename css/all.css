@@ -49,9 +49,10 @@ table {
     color:#6cbbff;
     text-shadow: none;
 }
+
 body{
     margin:0;
-    font:18px/30px 'bentonsanslight', Helvetica, sans-serif;
+    font:14px/24px 'Raleway', sans-serif;
     min-width:998px;
     color:#7d7d7d;
     background:#fff;
@@ -78,7 +79,7 @@ a:active{background-color:transparent;}
     position:relative;
 }
 .container{
-    max-width:1110px;
+    max-width:1170px;
     margin:0 auto;
     padding:0 20px;
 }
@@ -109,7 +110,8 @@ a:active{background-color:transparent;}
     background:#fff;
 }
 .gamification h2 {
-    font:36px/50px 'clan-thinthin', Helvetica, sans-serif;
+    font:34px/50px 'Noto Serif', serif;
+    font-weight: 700;
     margin:0 0 30px;
     color:#202020;
     text-align:center;
@@ -136,18 +138,18 @@ a:active{background-color:transparent;}
 .gamification-section .row:first-child{margin:0;}
 .gamification-section .col-l{
     float:left;
-    width:30%;	
-    padding:100px 0 0 150px;
+    width:40%;	
+    padding:100px 0 0 0;
 }
 .gamification-section .col-l img{margin:-30px 0 100px 0;}
 .gamification-section .col-r{
     float:right;
-    width:30%;
-    padding:100px 100px 0 0;
+    width:40%;
+    padding:100px 0 0 0;
 }
 .gamification-section .col-r img{margin:-30px 0 100px 6px;}
 .gamification-section h2.game  {
-    font:28px/40px 'clan-thinthin', Helvetica, sans-serif;
+    font:28px/40px 'Noto Serif', serif;
     color:#121212;
     padding-bottom:30px;
 }
@@ -274,14 +276,14 @@ a:active{background-color:transparent;}
 
 @media (max-width: 1400px){
     body{
-	font:17px/30px 'bentonsanslight', Helvetica, sans-serif;
+	font:14px/24px 'Raleway', sans-serif;
 	letter-spacing:0.03em;
     }
     .gamification-section{
 	padding:50px 0;
     }
     .gamification h2 {
-	font:28px/38px 'clan-thinthin', Helvetica, sans-serif;
+	font:28px/38px 'Noto Serif', serif;
     }
     .gamification-section .col-l{
 	width:36%;
@@ -295,18 +297,18 @@ a:active{background-color:transparent;}
 	padding:45px 60px 30px 0;
     }
     .columns h2{
-	font:24px/34px 'clan-thinthin', Helvetica, sans-serif;
+	font:24px/34px 'Noto Serif', serif;
 	color:#a9baff;
 	margin:0 0 15px;
     }
 @media (max-width: 568px){
 
     body{
-	font:14px/26px 'bentonsanslight', Helvetica, sans-serif;
+	font:14px/26px 'Raleway', sans-serif;
     }
     .gamification-section{padding:50px 0 0px;}
     .gamification h2 {
-	font:24px/36px 'clan-thinthin', Helvetica, sans-serif;
+	font:24px/36px 'Noto Serif', serif;
     }
     .gamification-section .col-r, .gamification-section .col-l{
 	width:auto;
@@ -322,7 +324,7 @@ a:active{background-color:transparent;}
 	padding:109px 0 23px;
     }
     .gamification-section h2.game  {
-	font:22px/32px 'clan-thinthin', Helvetica, sans-serif;
+	font:22px/32px 'Noto Serif', serif;
 	padding-bottom:10px;
 	text-align:center;
     }
