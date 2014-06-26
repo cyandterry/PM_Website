@@ -52,7 +52,7 @@ table {
 
 body{
     margin:0;
-    font:14px/24px 'Raleway', sans-serif;
+    font:16px/28px 'Raleway', sans-serif;
     min-width:998px;
     color:#7d7d7d;
     background:#fff;
@@ -107,10 +107,10 @@ a:active{background-color:transparent;}
     padding:100px 0;
     position:relative;
     overflow:hidden;
-    background:#fff;
+    background:#f4f4f4;
 }
 .gamification h2 {
-    font:34px/50px 'Noto Serif', serif;
+    font:34px/50px 'Source Sans Pro', sans-serif;
     font-weight: 700;
     margin:0 0 30px;
     color:#202020;
@@ -141,18 +141,30 @@ a:active{background-color:transparent;}
     width:40%;	
     padding:100px 0 0 0;
 }
-.gamification-section .col-l img{margin:-30px 0 100px 0;}
+.gamification-section .col-l img{margin:0px 0 100px 0;}
 .gamification-section .col-r{
     float:right;
     width:40%;
     padding:100px 0 0 0;
 }
-.gamification-section .col-r img{margin:-30px 0 100px 6px;}
+.gamification-section .col-r img{margin:0px 0 100px 6px;}
 .gamification-section h2.game  {
-    font:28px/40px 'Noto Serif', serif;
+    font:28px/40px 'Source Sans Pro', sans-serif;
+    font-weight: 700;
     color:#121212;
     padding-bottom:30px;
 }
+
+.gamification-section h3.game {
+font-size: 17px;
+font-weight: 600;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+ul.description {
+    font-size: 15px;
+}
+
 .ico{
     display:inline-block;
     vertical-align:top;
@@ -189,6 +201,22 @@ a:active{background-color:transparent;}
     -moz-animation-delay: 2s;
     -webkit-animation-delay: 2s;
 }
+
+ul.description {
+    display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+
+ul.description li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
 @keyframes ico{
     0%{opacity:1;}
     50%{opacity:1;transform: scale(1.2);}
@@ -276,14 +304,14 @@ a:active{background-color:transparent;}
 
 @media (max-width: 1400px){
     body{
-	font:14px/24px 'Raleway', sans-serif;
+	font:16px/28px 'Raleway', sans-serif;
 	letter-spacing:0.03em;
     }
     .gamification-section{
 	padding:50px 0;
     }
     .gamification h2 {
-	font:28px/38px 'Noto Serif', serif;
+	font:28px/38px 'Source Sans Pro', sans-serif;
     }
     .gamification-section .col-l{
 	width:36%;
@@ -297,14 +325,14 @@ a:active{background-color:transparent;}
 	padding:45px 60px 30px 0;
     }
     .columns h2{
-	font:24px/34px 'Noto Serif', serif;
+	font:24px/34px 'Source Sans Pro', sans-serif;
 	color:#a9baff;
 	margin:0 0 15px;
     }
 @media (max-width: 568px){
 
     body{
-	font:14px/26px 'Raleway', sans-serif;
+	font:16px/28px 'Raleway', sans-serif;
     }
     .gamification-section{padding:50px 0 0px;}
     .gamification h2 {
@@ -324,7 +352,8 @@ a:active{background-color:transparent;}
 	padding:109px 0 23px;
     }
     .gamification-section h2.game  {
-	font:22px/32px 'Noto Serif', serif;
+	font:22px/32px 'Source Sans Pro', sans-serif;
+    font-weight: 700;
 	padding-bottom:10px;
 	text-align:center;
     }
