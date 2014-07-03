@@ -104,14 +104,22 @@ a:active{background-color:transparent;}
     to {-webkit-transform:translateY(0);opacity:1;}
 }
 .gamification-section{
-    padding:100px 0;
+    padding-top:80px;
     position:relative;
     overflow:hidden;
     background:#f4f4f4;
+    padding-bottom: 80px;
 }
+
+.gamification {
+    padding-bottom: 30px;
+    text-align: center;
+}
+
 .gamification h2 {
-    font:34px/50px 'Source Sans Pro', sans-serif;
-    font-weight: 700;
+    font:28px/40px 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-style: italic;
     margin:0 0 30px;
     color:#202020;
     text-align:center;
@@ -119,10 +127,11 @@ a:active{background-color:transparent;}
 .gamification-section:before{
     content:"";
     position:absolute;
-    top:260px;
+    top:280px;
     bottom:0;
     width:2px;
-    background:#6c69f8;
+    /*background:#6c69f8;*/
+    background: #ff3878;
     left:50%;
     margin-left:-1px;
     animation-duration: 3.5s;
@@ -234,7 +243,7 @@ ul.description li {
 }
 .ico > span{
     display:block;
-    background: rgb(82,87,223);
+    background: #ff3878;
     overflow:hidden;
     position:relative;
     border-radius:50px;
@@ -368,3 +377,5 @@ ul.description li {
     }
     .columns .inner{padding:0 0 40px;}
 }
+
+    
