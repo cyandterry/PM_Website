@@ -18,6 +18,7 @@
     <link href='http://fonts.googleapis.com/css?family=Noto+Serif:700,400italic' rel='stylesheet' type='text/css'>
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/jquery.fancybox.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -28,7 +29,6 @@
   </head>
 
   <body>
-
     <!-- begin:navbar -->
     <nav class="navbar navbar-default navbar-transparent navbar-fixed-top" role="navigation">
       <div class="container">
@@ -82,9 +82,6 @@
     </section>
     <!-- end:header -->
 
-
-    
-
     <!-- begin:content -->
     <section id="content-2" >
       <div class="container">
@@ -93,41 +90,41 @@
             <p>Major Task Flow</p>
             <div class="row">
               <div class="col-md-6">
-                <a class="fancybox" rel="group" href="img/Crib-userflow-1.jpg"><img src="img/Crib-userflow-1.jpg" width="100%" alt="cribnotes user flow 1"></a>
+                <a class="fancybox" rel="group" href="img/crib-userflow-1.jpg"><img src="img/crib-userflow-1.jpg" width="100%" alt="cribnotes user flow 1"></a>
               </div>
 
               <div class="col-md-6">
-                <a rel="group" href="img/crib-userflow-2.jpg"><img src="img/crib-userflow-2.jpg" width="100%" alt="cribnotes user flow 2"></a>
+                <a class="fancybox" rel="group" href="img/crib-userflow-2.jpg"><img src="img/crib-userflow-2.jpg" width="100%" alt="cribnotes user flow 2"></a>
               </div>
             </div>
 
-                    </br>
-                    <p>Wireframes that I drew</p>
-                    <img src="img/cribnotes-draft.jpg" width="100%">
+            <br />
+            <p>Wireframes that I drew</p>
+            <img src="img/cribnotes-draft.jpg" width="100%">
 
-                    </br>
-                    </br>
+            <br />
+            <br />
 
-                    <p>Wireframe for User Profile Page</p>
-                    <img src="img/crib-wireframe.jpg" width="100%">
+            <p>Wireframe for User Profile Page</p>
+            <img src="img/crib-wireframe.jpg" width="100%">
 
-                    </br>
-                    </br>
-                    </br>
+            <br />
+            <br />
+            <br />
 
-                    <p>CribNotes' Homepage Mockup</p>
-                    <img src="img/crib-homepage.jpg" alt="CribNotes' Homepage Prototype" width="100%">
+            <p>CribNotes' Homepage Mockup</p>
+            <img src="img/crib-homepage.jpg" alt="CribNotes' Homepage Prototype" width="100%">
           </div>
 
           <div class="col-md-4 col-sm-4 sidebar" id="livablecny-sidebar">
-            <div class="widget-sidebar default_widget" >
+            <div class="widget-sidebar default_widget">
               <h3>Overview</h3>
-              <p>CribNotes is a web service which is similar to <a href="http://www.cliffsnotes.com/" target="_blank">CliffNotes</a> and <a href="http://http://www.sparknotes.com/" target="_blank">SparkNotes</a>, which provide served as a resource to help users understand books, write papers, and study for tests. It provides book summaries, study guides and all kinds of resources.</br>
+              <p>CribNotes is a web service which is similar to <a href="http://www.cliffsnotes.com/" target="_blank">CliffNotes</a> and <a href="http://http://www.sparknotes.com/" target="_blank">SparkNotes</a>, which provide served as a resource to help users understand books, write papers, and study for tests. It provides book summaries, study guides and all kinds of resources.<br />
                 However, one thing that differentiate CribNotes from others is that users can request specific books/journals/literature that they would like a summary of, and other users can bid to create the summary for the requester. The user requesting the summary accepts bids from different users, and then chooses the user he/she would like to create the summary. The users bidding to create the summary provide a bid price for creating a summary, and have a profile that provides examples of past work he/she has completed.
               </p>
             </div>
 
-            <div class="widget-sidebar default_widget" >
+            <div class="widget-sidebar default_widget">
               <h3>My Role</h3>
               <p>It is an exercise in which I need to design the whole service platform. It's very challenging to design the service all by myself in just a few days' time, which asks you to be very logical and consider steps of the users' interaction with the system. Especially this is a request and bidding service, which involves a community of users and their activities and interaction with each other. 
                 <ul>
@@ -139,50 +136,45 @@
               </p>
             </div> 
 
-            <div class="widget-sidebar default_widget" >
+            <div class="widget-sidebar default_widget">
               <h3>The Process</h3>
               <p>
-                <strong>Research</strong></br>
-                    <ul>
-                      <li>Examined the content, and every page, functions and interactions of CliffNotes and SparkNotes</li>
-                      <li>Conducted research about other websites that have freelance or bidding service, such as <em>eBay</em>, <em>Freelancer.com</em>, and <em>Guru.com</em> </li>
-                    </ul>
-                    </br>
+                <strong>Research</strong><br />
+                <ul>
+                  <li>Examined the content, and every page, functions and interactions of CliffNotes and SparkNotes</li>
+                  <li>Conducted research about other websites that have freelance or bidding service, such as <em>eBay</em>, <em>Freelancer.com</em>, and <em>Guru.com</em> </li>
+                </ul>
+                <br />
 
-                    <strong>Design User Flow</strong></br>
-                    I sketched down all my ideas along the process before I started to create the user flow.
-                    <ul>
-                      <li>Since the key feature of the website is that users can request and bid for summaries, which involves money transaction in the process. Thus, I thought it would be better to create a requester-bidder community and trustworthy platform. This asks for users to login with real identity and credit card information. For writers, they also need personal profile to show their past works and feedbacks from others. </li>
-                    </br>
-                    <li>Users can either search by books or search by bids. When searching by bids, they will be directed to the "Crib Market" page and all related bids will be shown.</li>
-                    </br>
-                    <li>To avoid causing confusion and wasting users' time on searching, the system will aggregate all the requests and bids for the same book together. </li>
-                    </br>
-                    <li>When users search for book summaries, the user-created summaries will appear in the search results too, along with the official one (if there's one) from CribNotes, but with obvious visual cues to differentiate them.</li>  
-                    </ul>
-                    </br>
+                <strong>Design User Flow</strong><br />
+                I sketched down all my ideas along the process before I started to create the user flow.
+                <ul>
+                  <li>Since the key feature of the website is that users can request and bid for summaries, which involves money transaction in the process. Thus, I thought it would be better to create a requester-bidder community and trustworthy platform. This asks for users to login with real identity and credit card information. For writers, they also need personal profile to show their past works and feedbacks from others. </li>
+                  <br />
+                  <li>Users can either search by books or search by bids. When searching by bids, they will be directed to the "Crib Market" page and all related bids will be shown.</li>
+                  <br />
+                  <li>To avoid causing confusion and wasting users' time on searching, the system will aggregate all the requests and bids for the same book together. </li>
+                  <br />
+                  <li>When users search for book summaries, the user-created summaries will appear in the search results too, along with the official one (if there's one) from CribNotes, but with obvious visual cues to differentiate them.</li>  
+                </ul>
+                <br />
 
-                    <strong>Create Wireframes</strong></br>
-                    I sketched the wireframes of important interactions and pages on paper, which made me easy to modify the design. 
-                    </br>
-                    </br>
+                <strong>Create Wireframes</strong><br />
+                I sketched the wireframes of important interactions and pages on paper, which made me easy to modify the design. 
+                <br />
+                <br />
 
-                    <strong>Create Mockups</strong></br>
-                    To get an idea of what the website will be like, I also created a mockup for the homepage.  
-                    </br>
+                <strong>Create Mockups</strong><br />
+                To get an idea of what the website will be like, I also created a mockup for the homepage.  
+                <br />
 
               </p>
-            </div>                    
+            </div>
           </div>
         </div>
       </div>
     </section>
-
-    
-    
-    
     <!-- end:content -->
-
 
     <!-- begin:copyright -->
     <section id="copyright">
@@ -206,7 +198,6 @@
     </section>
     <!-- end:copyrigt -->
 
-    
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
